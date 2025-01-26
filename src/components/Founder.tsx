@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import founder from "../assest/founderImage/founder.png";
 
 export default function Founder() {
   return (
@@ -20,7 +21,7 @@ export default function Founder() {
             <div className="md:flex">
               <div className="md:w-1/3">
                 <img
-                  src="/src/assest/founderImage/founder.png"
+                  src={founder}
                   alt="Arvind Kr. Mishra - Founder of Trona Creations"
                   className="w-full h-full object-cover"
                 />

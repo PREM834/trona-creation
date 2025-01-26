@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import logoSvg from "../assest/logoSvg.svg";
 
 const navigation = [
   { name: "About", href: "#about" },
@@ -52,7 +53,7 @@ export default function Navigation() {
             className="flex items-center space-x-2 group"
           >
             <img
-              src="/src/assest/logoSvg.svg"
+              src={logoSvg}
               alt="Trona Creations Logo"
               className="w-10 h-10 group-hover:scale-110 transition-transform"
             />
