@@ -35,7 +35,7 @@ export default function Hero() {
             className="flex items-center space-x-4 mb-8"
           >
             <img
-              src="/src/assest/logoSvg.svg"
+              src="dist/src/assest/logoSvg.svg"
               alt="Trona Creations Logo"
               className="w-16 h-16 transform -translate-x-8 translate-y-6"
             />
