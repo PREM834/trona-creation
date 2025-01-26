@@ -1,29 +1,35 @@
-import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
-import { Sun, Snowflake, Dumbbell } from 'lucide-react';
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+import { Sun, Snowflake, Dumbbell } from "lucide-react";
 
 const collections = [
   {
-    id: 'summer',
-    title: 'Summer Collection',
+    id: "summer",
+    title: "Summer Collection",
     Icon: Sun,
-    description: 'Discover our lightweight and breathable summer wear designed for ultimate comfort in warm weather.',
-    image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80'
+    description:
+      "Discover our lightweight and breathable summer wear designed for ultimate comfort in warm weather.",
+    image:
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80",
   },
   {
-    id: 'winter',
-    title: 'Winter Collection',
+    id: "winter",
+    title: "Winter Collection",
     Icon: Snowflake,
-    description: 'Stay warm and stylish with our winter collection featuring thermal insulation and water-resistant materials.',
-    image: 'https://images.unsplash.com/photo-1608063615781-e2ef8c73d114?auto=format&fit=crop&q=80'
+    description:
+      "Stay warm and stylish with our winter collection featuring thermal insulation and water-resistant materials.",
+    image:
+      "https://images.unsplash.com/photo-1608063615781-e2ef8c73d114?auto=format&fit=crop&q=80",
   },
   {
-    id: 'sports',
-    title: 'Sports Collection',
+    id: "sports",
+    title: "Sports Collection",
     Icon: Dumbbell,
-    description: 'Engineered for performance, our sports collection combines functionality with style.',
-    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80'
-  }
+    description:
+      "Engineered for performance, our sports collection combines functionality with style.",
+    image:
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80",
+  },
 ];
 
 export default function Products() {
@@ -38,7 +44,9 @@ export default function Products() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Collections</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Our Collections
+          </h2>
           <p className="text-lg text-gray-600">
             Discover our seasonal collections designed for comfort and style
           </p>

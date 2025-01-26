@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Mail, MapPin } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Mail, MapPin } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -43,13 +43,20 @@ export default function Contact() {
               transition={{ duration: 0.8 }}
               className="bg-white p-8 rounded-lg shadow-lg"
             >
-              <div className="flex items-center mb-6">
-                <MapPin className="w-6 h-6 text-sky-600 mr-2" />
-                <h3 className="text-xl font-semibold">Visit Us</h3>
-              </div>
+              <a
+                href="https://maps.app.goo.gl/dL4w7W2shZCK9tEQ6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center mb-6 cursor-pointer transition-transform duration-300 hover:scale-105"
+              >
+                <MapPin className="w-6 h-6 text-sky-600 mr-2 transition-transform duration-300 group-hover:scale-110" />
+                <h3 className="text-xl font-semibold transition-colors duration-300 group-hover:text-sky-600">
+                  Visit Us
+                </h3>
+              </a>
               <p className="text-gray-600">
-                Our team is ready to assist you with any questions about our products
-                and sustainable practices.
+                Our team is ready to assist you with any questions about our
+                products and sustainable practices.
               </p>
             </motion.div>
           </div>

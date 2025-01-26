@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="15in" height="18in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 11692.91 16535.43"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#33CC33;stroke-width:7.87;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str1 {stroke:white;stroke-width:7.87;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .fil2 {fill:#33CC33}
+    .fil0 {fill:#33CC33}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1267381595536">
+   <ellipse class="fil0 str0" cx="5973.61" cy="7477.17" rx="3534.76" ry="3243.23"/>
+   <polygon class="fil1 str1" points="5751.03,6711.2 9364.57,4031.67 1184.43,7303.77 5760.01,7452.12 7062.42,11928.51 7294,6711.2 "/>
+   <polygon class="fil2 str0" points="2441.77,7344.54 1184.43,7303.77 2444.07,7654.93 "/>
+   <polygon class="fil2 str0" points="8427.5,5174.24 9364.57,4041.24 8175.65,4919.72 "/>
+   <polygon class="fil2 str0" points="6448.22,10691.42 7059.74,11930.82 6691.46,10653.48 "/>
+  </g>
+ </g>
+</svg>

@@ -1,18 +1,20 @@
-import { motion } from 'framer-motion';
-import { ThumbsUp, Shirt } from 'lucide-react';
+import { motion } from "framer-motion";
+import { ThumbsUp, Shirt } from "lucide-react";
 
 export default function Philosophy() {
   const philosophies = [
     {
       icon: ThumbsUp,
-      title: 'Quality',
-      description: 'We believe in creating garments that stand the test of time. Every stitch, every fabric, and every design element is carefully chosen to ensure the highest standards of quality. Our commitment to excellence is reflected in the durability and finish of each piece we create.'
+      title: "Quality",
+      description:
+        "We believe in creating garments that stand the test of time. Every stitch, every fabric, and every design element is carefully chosen to ensure the highest standards of quality. Our commitment to excellence is reflected in the durability and finish of each piece we create.",
     },
     {
       icon: Shirt,
-      title: 'Comfort',
-      description: 'Comfort is at the heart of everything we do. We understand that clothing should not just look good but feel great too. Our designs incorporate ergonomic considerations and premium materials to ensure that every garment provides maximum comfort throughout the day.'
-    }
+      title: "Comfort",
+      description:
+        "Comfort is at the heart of everything we do. We understand that clothing should not just look good but feel great too. Our designs incorporate ergonomic considerations and premium materials to ensure that every garment provides maximum comfort throughout the day.",
+    },
   ];
 
   return (
@@ -24,9 +26,12 @@ export default function Philosophy() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Philosophy</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Our Philosophy
+          </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            At Trona Creations, we believe in creating clothing that combines style, comfort, and sustainability.
+            At Trona Creations, we believe in creating clothing that combines
+            style, comfort, and sustainability.
           </p>
         </motion.div>
 
@@ -42,8 +47,12 @@ export default function Philosophy() {
               <div className="inline-block p-4 rounded-full bg-sky-100 mb-6">
                 <item.icon className="w-12 h-12 text-sky-600" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">{item.title}</h3>
-              <p className="text-gray-600 max-w-md mx-auto">{item.description}</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                {item.title}
+              </h3>
+              <p className="text-gray-600 max-w-md mx-auto">
+                {item.description}
+              </p>
             </motion.div>
           ))}
         </div>
