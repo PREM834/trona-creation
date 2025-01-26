@@ -2,6 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
 import { motion } from "framer-motion";
+import logoSvg from "../assest/logoSvg.svg"
 
 function Logo() {
   return (
@@ -35,7 +36,7 @@ export default function Hero() {
             className="flex items-center space-x-4 mb-8"
           >
             <img
-              src="../assest/logoSvg.svg"
+              src={logoSvg}
               alt="Trona Creations Logo"
               className="w-16 h-16 transform -translate-x-8 translate-y-6"
             />
